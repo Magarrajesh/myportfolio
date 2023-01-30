@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.logo-menu{
+    height: 50px;
+    background-color: #3498db;
+    display: flex;
+    width: 100%;
+
+}
+.logo h1{
+    font-size: 29px;
+    color: #fff;
+    margin: 8px 30px;
+   
+}
+
+.menu{
+    float: right;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    color: black;
+    transition: all 0.9s ease-in-out;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../images/16.jpg) ;
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.name-image{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.name{
+    color: #fff;
+    margin-top: 60px;
+    position: absolute;
+    top: 30%;
+    left: 34%;
+}
+.name h2, h6{
+    font-size: 80px;
+
+}
+.name h6{
+    margin-left: 65px;
+}
+.icon{
+    margin-left: 100px;
+    margin-top: 20px;
+}.icon a{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 10px;
+    text-align: center;
+    border: 2px solid #3498db;
+}
+.icon a i{
+    font-size: 20px;
+    margin-top: 10px;
+}.icon a:hover {
+    color:white;
+    background-color: rgb(30, 80, 243);
+    border: 2px solid white;
+    transition: all 0.5s ease-in;
+}
+/* about-me */
+.about-me{
+    height:80vh;
+    text-align: center;
+    width: 100%;
+    margin-top:30px;
+}
+.about-me h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3498db;
+}
+.image-about{
+    display: flex;
+    text-align: left;
+    margin-left: 100px;
+    
+
+}
+.image img{
+    width: 300px;
+    height: 410px;
+    border-radius: 30px;
+}
+.aboutme{
+    margin: 30px 50px;
+}
+.botton-me{
+    display: flex;
+    text-align: center;
+
+}
+
+.botton-me a{
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    display: block;
+    margin: 6px 5px;
+    background-color: #3498db;
+    color: white;
+    padding-top: 9px;
+    border-radius: 5px;
+}.botton-me a:hover{
+    text-decoration: none;
+    color: #3498db;
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+    border: 1px solid #3498db;
+}
+/* portfolio section */
+.portfolio{
+    height: 185vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3498db;
+}
+.images img{
+    height: 290px;
+    width: 300px;
+}
+.images img:hover{
+    scale: 0.9;
+    transition: all 0.8s ease-in-out;
+}
+/* services section */
+.service-section{
+
+    height: 82vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/14.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.service-section h2{
+    text-align: center;
+    font-size: 60px;
+   color: white;
+   margin-top: 60px;
+}
+.Service-content{
+    margin-left: 80px;
+}
+.service-content h2{
+    font-size: 22px;
+    text-align: left;
+   
+}
+.Service-bar #progress{
+    width: 350px;
+    height: 32px;
+    margin-left: 160px;
+}
+/* contact section */
+.contact-section{
+    height: 130vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(../images/13.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+}.contact-section h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 60px;
+}
+.contact-form{
+    margin-left: 40px;
+}
+
+.contact-detail{
+
+    min-height: 500px;
+    width: 300px;
+    margin: 10px 110px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 7px;
+}
+.contact-icon{
+    font-size: 14px;
+}
+.address-row{
+    display: flex;
+    margin-top: 40px;
+}
+.address-icon i{
+    background-color: white;
+    color: #3498db;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 18px 0px;
+    font-size: 25px;
+}
+.form{
+    background-color: white;
+ 
+    border-radius: 7px;
+    min-height: 500px;
+    width: 300px;
+    margin: 10px 30px;
+}
+.form h4{
+    text-align: center;
+    margin-top: 40px;
+}
+form{
+    margin-left: 20px;
+}
+#form{
+    width: 300px;
+    border-radius: 20px;
+    padding: 9px 20px;
+    margin: 9px 0px;
+    border: 1px solid #3498db;
+    outline: none;
+}
+.address-detail h6{
+    margin: 0;
+}.address-detail h6 span{
+    font-size: 14px;
+}
+
+.contact-detail:hover, .form:hover{
+ box-shadow: 0px 0px 8px 0px lightblue;
+ transition: all 0.3s ease-in-out;
+
+}
+#button{
+    background-color: #3498db;
+    display: block;
+    color: white;
+    height: 45px;
+    width: 90px;
+    border: none;
+    border-radius: 5px 0px 5px 0px;
+
+}
+#button:hover{
+    background-color: white;
+    color: #3498db;
+    transition: all 0.3s ease-in;
+    border: 1px solid #3498db;
+}
+/* footersection */
+.footer-section{
+    height: 35vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/pexels-olia-danilevich-4974912.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+.icon2{
+    margin-top: 50px;
+}.icon2 a{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 10px;
+    text-align: center;
+    border: 2px solid #3498db;
+}
+.icon2 a i{
+    font-size: 20px;
+    margin-top: 10px;
+}.icon2 a:hover {
+    color:white;
+    background-color: rgb(30, 80, 243);
+    border: 2px solid white;
+    transition: all 0.5s ease-in;
+}
+.footer-nave ul li{
+display: inline-block;
+text-align: center;
+margin: 20px 8px;
+}
+.footer-nave ul li a{
+    text-decoration: none;
+    color: white;
+    
+}.footer-nave ul li a:hover{
+    color: #3498db;
+    transition: all 0.5s ease-in;
+}.footer-nave p{
+    color: white;
+}
